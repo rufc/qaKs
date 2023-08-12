@@ -86,7 +86,7 @@ chmod +x ./tF_5.txt
 
 
 16. Вывести список всех файлов в папке.
-ls -la
+ls -l
 
 17. Выйти из папки inner_dir_1
 cd ..
@@ -151,9 +151,6 @@ tail -n 4 ./inner_dir_1/tf_3.txt
 head -n 4 ./inner_dir_1/tf_3.txt
 
 35. Команда в одну строку. Создать папку и создать текстовый файл с содержиммым.
-mkdir folder35 && cat > text35.txt
-sometext
-CTRL+D
 mkdir folder35 | echo some text > text35.txt
 
 36. Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
